@@ -1,0 +1,229 @@
+---
+title: "Code Book"
+---
+
+Result Data set :
+
+'data.frame':  180 obs. of  69 variables:
+
+ $ activity                       : chr  "LAYING" "LAYING" "LAYING" "LAYING" ...
+ 
+ $ Subject_ID                     : int  1 2 3 4 5 6 7 8 9 10 ...
+ 
+ $ lable_Y                        : num  6 6 6 6 6 6 6 6 6 6 ...
+ 
+ $ time.BodyAcc.mean...X          : num  0.222 0.281 0.276 0.264 0.278 ...
+ 
+ $ time.BodyAcc.mean...Y          : num  -0.0405 -0.0182 -0.019 -0.015 -0.0183 ...
+ 
+ $ time.BodyAcc.mean...Z          : num  -0.113 -0.107 -0.101 -0.111 -0.108 ...
+ 
+ $ time.BodyAcc.std...X           : num  -0.928 -0.974 -0.983 -0.954 -0.966 ...
+ 
+ $ time.BodyAcc.std...Y           : num  -0.837 -0.98 -0.962 -0.942 -0.969 ...
+ 
+ $ time.BodyAcc.std...Z           : num  -0.826 -0.984 -0.964 -0.963 -0.969 ...
+ 
+ $ time.GravityAcc.mean...X       : num  -0.249 -0.51 -0.242 -0.421 -0.483 ...
+ 
+ $ time.GravityAcc.mean...Y       : num  0.706 0.753 0.837 0.915 0.955 ...
+ 
+ $ time.GravityAcc.mean...Z       : num  0.446 0.647 0.489 0.342 0.264 ...
+ 
+ $ time.GravityAcc.std...X        : num  -0.897 -0.959 -0.983 -0.921 -0.946 ...
+ 
+ $ time.GravityAcc.std...Y        : num  -0.908 -0.988 -0.981 -0.97 -0.986 ...
+ 
+ $ time.GravityAcc.std...Z        : num  -0.852 -0.984 -0.965 -0.976 -0.977 ...
+ 
+ $ time.BodyAccJerk.mean...X      : num  0.0811 0.0826 0.077 0.0934 0.0848 ...
+ 
+ $ time.BodyAccJerk.mean...Y      : num  0.00384 0.01225 0.0138 0.00693 0.00747 ...
+ 
+ $ time.BodyAccJerk.mean...Z      : num  0.01083 -0.0018 -0.00436 -0.00641 -0.00304 ...
+ 
+ $ time.BodyAccJerk.std...X       : num  -0.958 -0.986 -0.981 -0.978 -0.983 ...
+ 
+ $ time.BodyAccJerk.std...Y       : num  -0.924 -0.983 -0.969 -0.942 -0.965 ...
+ 
+ $ time.BodyAccJerk.std...Z       : num  -0.955 -0.988 -0.982 -0.979 -0.985 ...
+ 
+ $ time.BodyGyro.mean...X         : num  -0.01655 -0.01848 -0.02082 -0.00923 -0.02189 ...
+ 
+ $ time.BodyGyro.mean...Y         : num  -0.0645 -0.1118 -0.0719 -0.093 -0.0799 ...
+ 
+ $ time.BodyGyro.mean...Z         : num  0.149 0.145 0.138 0.17 0.16 ...
+ 
+ $ time.BodyGyro.std...X          : num  -0.874 -0.988 -0.975 -0.973 -0.979 ...
+ 
+ $ time.BodyGyro.std...Y          : num  -0.951 -0.982 -0.977 -0.961 -0.977 ...
+ 
+ $ time.BodyGyro.std...Z          : num  -0.908 -0.96 -0.964 -0.962 -0.961 ...
+ 
+ $ time.BodyGyroJerk.mean...X     : num  -0.107 -0.102 -0.1 -0.105 -0.102 ...
+ 
+ $ time.BodyGyroJerk.mean...Y     : num  -0.0415 -0.0359 -0.039 -0.0381 -0.0404 ...
+ 
+ $ time.BodyGyroJerk.mean...Z     : num  -0.0741 -0.0702 -0.0687 -0.0712 -0.0708 ...
+ 
+ $ time.BodyGyroJerk.std...X      : num  -0.919 -0.993 -0.98 -0.975 -0.983 ...
+ 
+ $ time.BodyGyroJerk.std...Y      : num  -0.968 -0.99 -0.987 -0.987 -0.984 ...
+ 
+ $ time.BodyGyroJerk.std...Z      : num  -0.958 -0.988 -0.983 -0.984 -0.99 ...
+ 
+ $ time.BodyAccMag.mean..         : num  -0.842 -0.977 -0.973 -0.955 -0.967 ...
+ 
+ $ time.BodyAccMag.std..          : num  -0.795 -0.973 -0.964 -0.931 -0.959 ...
+ 
+ $ time.GravityAccMag.mean..      : num  -0.842 -0.977 -0.973 -0.955 -0.967 ...
+ 
+ $ time.GravityAccMag.std..       : num  -0.795 -0.973 -0.964 -0.931 -0.959 ...
+ 
+ $ time.BodyAccJerkMag.mean..     : num  -0.954 -0.988 -0.979 -0.97 -0.98 ...
+ 
+ $ time.BodyAccJerkMag.std..      : num  -0.928 -0.986 -0.976 -0.961 -0.977 ...
+ 
+ $ time.BodyGyroMag.mean..        : num  -0.875 -0.95 -0.952 -0.93 -0.947 ...
+ 
+ $ time.BodyGyroMag.std..         : num  -0.819 -0.961 -0.954 -0.947 -0.958 ...
+ 
+ $ time.BodyGyroJerkMag.mean..    : num  -0.963 -0.992 -0.987 -0.985 -0.986 ...
+ 
+ $ time.BodyGyroJerkMag.std..     : num  -0.936 -0.99 -0.983 -0.983 -0.984 ...
+ 
+ $ freq.BodyAcc.mean...X          : num  -0.939 -0.977 -0.981 -0.959 -0.969 ...
+ 
+ $ freq.BodyAcc.mean...Y          : num  -0.867 -0.98 -0.961 -0.939 -0.965 ...
+ 
+ $ freq.BodyAcc.mean...Z          : num  -0.883 -0.984 -0.968 -0.968 -0.977 ...
+ 
+ $ freq.BodyAcc.std...X           : num  -0.924 -0.973 -0.984 -0.952 -0.965 ...
+ 
+ $ freq.BodyAcc.std...Y           : num  -0.834 -0.981 -0.964 -0.946 -0.973 ...
+ 
+ $ freq.BodyAcc.std...Z           : num  -0.813 -0.985 -0.963 -0.962 -0.966 ...
+ 
+ $ freq.BodyAccJerk.mean...X      : num  -0.957 -0.986 -0.981 -0.979 -0.983 ...
+ 
+ $ freq.BodyAccJerk.mean...Y      : num  -0.922 -0.983 -0.969 -0.944 -0.965 ...
+ 
+ $ freq.BodyAccJerk.mean...Z      : num  -0.948 -0.986 -0.979 -0.975 -0.983 ...
+ 
+ $ freq.BodyAccJerk.std...X       : num  -0.964 -0.987 -0.983 -0.98 -0.986 ...
+ 
+ $ freq.BodyAccJerk.std...Y       : num  -0.932 -0.985 -0.971 -0.944 -0.966 ...
+ 
+ $ freq.BodyAccJerk.std...Z       : num  -0.961 -0.989 -0.984 -0.98 -0.986 ...
+ 
+ $ freq.BodyGyro.mean...X         : num  -0.85 -0.986 -0.97 -0.967 -0.976 ...
+ 
+ $ freq.BodyGyro.mean...Y         : num  -0.952 -0.983 -0.978 -0.972 -0.978 ...
+ 
+ $ freq.BodyGyro.mean...Z         : num  -0.909 -0.963 -0.962 -0.961 -0.963 ...
+ 
+ $ freq.BodyGyro.std...X          : num  -0.882 -0.989 -0.976 -0.975 -0.981 ...
+ 
+ $ freq.BodyGyro.std...Y          : num  -0.951 -0.982 -0.977 -0.956 -0.977 ...
+ 
+ $ freq.BodyGyro.std...Z          : num  -0.917 -0.963 -0.967 -0.966 -0.963 ...
+ 
+ $ freq.BodyAccMag.mean..         : num  -0.862 -0.975 -0.966 -0.939 -0.962 ...
+ 
+ $ freq.BodyAccMag.std..          : num  -0.798 -0.975 -0.968 -0.937 -0.963 ...
+ 
+ $ freq.BodyBodyAccJerkMag.mean.. : num  -0.933 -0.985 -0.976 -0.962 -0.977 ...
+ 
+ $ freq.BodyBodyAccJerkMag.std..  : num  -0.922 -0.985 -0.975 -0.958 -0.976 ...
+ 
+ $ freq.BodyBodyGyroMag.mean..    : num  -0.862 -0.972 -0.965 -0.962 -0.968 ...
+ 
+ $ freq.BodyBodyGyroMag.std..     : num  -0.824 -0.961 -0.955 -0.947 -0.959 ...
+ 
+ $ freq.BodyBodyGyroJerkMag.mean..: num  -0.942 -0.99 -0.984 -0.984 -0.985 ...
+ 
+ $ freq.BodyBodyGyroJerkMag.std.. : num  -0.933 -0.989 -0.983 -0.983 -0.983 ...
+ 
+ 
+ 
+##Columns Mapping :
+ 
+ Activity :     2'ed Column of activity_labels.txt merged with data on lable_Y filed. 
+ Subject_ID :   data in subject_train.txt and subject_test.txt
+ Lable_Y :      Observation label for movement data in y_test.txt
+
+ ** Measurements data** :
+ 
+ [1,] "time.BodyAcc.mean...X"     ==>        "tBodyAcc-mean()-X"          
+ [2,] "time.BodyAcc.mean...Y"     ==>        "tBodyAcc-mean()-Y"          
+ [3,] "time.BodyAcc.mean...Z"     ==>        "tBodyAcc-mean()-Z"          
+ [4,] "time.BodyAcc.std...X"      ==>        "tBodyAcc-std()-X"           
+ [5,] "time.BodyAcc.std...Y"      ==>        "tBodyAcc-std()-Y"           
+ [6,] "time.BodyAcc.std...Z"      ==>        "tBodyAcc-std()-Z"           
+ [7,] "time.GravityAcc.mean...X"  ==>        "tGravityAcc-mean()-X"       
+ [8,] "time.GravityAcc.mean...Y"  ==>        "tGravityAcc-mean()-Y"       
+ [9,] "time.GravityAcc.mean...Z"  ==>        "tGravityAcc-mean()-Z"       
+[10,] "time.GravityAcc.std...X"   ==>        "tGravityAcc-std()-X"        
+[11,] "time.GravityAcc.std...Y"   ==>        "tGravityAcc-std()-Y"        
+[12,] "time.GravityAcc.std...Z"   ==>       "tGravityAcc-std()-Z"        
+[13,] "time.BodyAccJerk.mean...X" ==>       "tBodyAccJerk-mean()-X"      
+[14,] "time.BodyAccJerk.mean...Y" ==>        "tBodyAccJerk-mean()-Y"      
+[15,] "time.BodyAccJerk.mean...Z" ==>        "tBodyAccJerk-mean()-Z"      
+[16,] "time.BodyAccJerk.std...X"  ==>        "tBodyAccJerk-std()-X"       
+[17,] "time.BodyAccJerk.std...Y"  ==>        "tBodyAccJerk-std()-Y"       
+[18,] "time.BodyAccJerk.std...Z"  ==>        "tBodyAccJerk-std()-Z"       
+[19,] "time.BodyGyro.mean...X"    ==>        "tBodyGyro-mean()-X"         
+[20,] "time.BodyGyro.mean...Y"    ==>        "tBodyGyro-mean()-Y"         
+[21,] "time.BodyGyro.mean...Z"    ==>        "tBodyGyro-mean()-Z"         
+[22,] "time.BodyGyro.std...X"     ==>          "tBodyGyro-std()-X"          
+[23,] "time.BodyGyro.std...Y"     ==>        "tBodyGyro-std()-Y"          
+[24,] "time.BodyGyro.std...Z"     ==>          "tBodyGyro-std()-Z"          
+[25,] "time.BodyGyroJerk.mean...X"==>        "tBodyGyroJerk-mean()-X"     
+[26,] "time.BodyGyroJerk.mean...Y"==>          "tBodyGyroJerk-mean()-Y"     
+[27,] "time.BodyGyroJerk.mean...Z"==>        "tBodyGyroJerk-mean()-Z"     
+[28,] "time.BodyGyroJerk.std...X" ==>        "tBodyGyroJerk-std()-X"      
+[29,] "time.BodyGyroJerk.std...Y" ==>        "tBodyGyroJerk-std()-Y"      
+[30,] "time.BodyGyroJerk.std...Z" ==>        "tBodyGyroJerk-std()-Z"      
+[31,] "time.BodyAccMag.mean.."    ==>        "tBodyAccMag-mean()"         
+[32,] "time.BodyAccMag.std.."     ==>        "tBodyAccMag-std()"          
+[33,] "time.GravityAccMag.mean.." ==>        "tGravityAccMag-mean()"      
+[34,] "time.GravityAccMag.std.."  ==>        "tGravityAccMag-std()"       
+[35,] "time.BodyAccJerkMag.mean.."==>        "tBodyAccJerkMag-mean()"     
+[36,] "time.BodyAccJerkMag.std.." ==>        "tBodyAccJerkMag-std()"      
+[37,] "time.BodyGyroMag.mean.."   ==>        "tBodyGyroMag-mean()"        
+[38,] "time.BodyGyroMag.std.."    ==>        "tBodyGyroMag-std()"         
+[39,] "time.BodyGyroJerkMag.mean.." ==>       "tBodyGyroJerkMag-mean()"    
+[40,] "time.BodyGyroJerkMag.std.."  ==>      "tBodyGyroJerkMag-std()"     
+[41,] "freq.BodyAcc.mean...X"       ==>      "fBodyAcc-mean()-X"          
+[42,] "freq.BodyAcc.mean...Y"       ==>      "fBodyAcc-mean()-Y"          
+[43,] "freq.BodyAcc.mean...Z"       ==>      "fBodyAcc-mean()-Z"          
+[44,] "freq.BodyAcc.std...X"        ==>      "fBodyAcc-std()-X"           
+[45,] "freq.BodyAcc.std...Y"        ==>      "fBodyAcc-std()-Y"           
+[46,] "freq.BodyAcc.std...Z"        ==>      "fBodyAcc-std()-Z"           
+[47,] "freq.BodyAccJerk.mean...X"   ==>      "fBodyAccJerk-mean()-X"      
+[48,] "freq.BodyAccJerk.mean...Y"   ==>      "fBodyAccJerk-mean()-Y"      
+[49,] "freq.BodyAccJerk.mean...Z"   ==>      "fBodyAccJerk-mean()-Z"      
+[50,] "freq.BodyAccJerk.std...X"    ==>      "fBodyAccJerk-std()-X"       
+[51,] "freq.BodyAccJerk.std...Y"    ==>      "fBodyAccJerk-std()-Y"       
+[52,] "freq.BodyAccJerk.std...Z"    ==>      "fBodyAccJerk-std()-Z"       
+[53,] "freq.BodyGyro.mean...X"      ==>      "fBodyGyro-mean()-X"         
+[54,] "freq.BodyGyro.mean...Y"      ==>      "fBodyGyro-mean()-Y"         
+[55,] "freq.BodyGyro.mean...Z"      ==>      "fBodyGyro-mean()-Z"         
+[56,] "freq.BodyGyro.std...X"       ==>      "fBodyGyro-std()-X"          
+[57,] "freq.BodyGyro.std...Y"       ==>      "fBodyGyro-std()-Y"          
+[58,] "freq.BodyGyro.std...Z"       ==>      "fBodyGyro-std()-Z"          
+[59,] "freq.BodyAccMag.mean.."      ==>      "fBodyAccMag-mean()"         
+[60,] "freq.BodyAccMag.std.."       ==>      "fBodyAccMag-std()"          
+[61,] "freq.BodyBodyAccJerkMag.mean.." ==>   "fBodyBodyAccJerkMag-mean()" 
+[62,] "freq.BodyBodyAccJerkMag.std.." ==>    "fBodyBodyAccJerkMag-std()"  
+[63,] "freq.BodyBodyGyroMag.mean.."   ==>    "fBodyBodyGyroMag-mean()"    
+[64,] "freq.BodyBodyGyroMag.std.."    ==>    "fBodyBodyGyroMag-std()"     
+[65,] "freq.BodyBodyGyroJerkMag.mean.." ==> "fBodyBodyGyroJerkMag-mean()"
+[66,] "freq.BodyBodyGyroJerkMag.std.."  ==>  "fBodyBodyGyroJerkMag-std()" 
+
+
+
+
+
+ 
+ 
